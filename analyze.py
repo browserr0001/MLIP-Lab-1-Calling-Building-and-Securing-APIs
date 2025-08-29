@@ -22,4 +22,5 @@ def get_llm_response(image_data: bytes) -> str:
         print(f"An error occurred: {e}")
         traceback.print_exc()  
         return f"An error occured"
+
     
